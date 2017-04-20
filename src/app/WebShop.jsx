@@ -14,13 +14,25 @@ class WebShop extends MyComp {
     let PRODUCTS = [
 
         {productnu: '123', text: 'test 1'},
-        {productnu: '456', text: 'test 2'}
+        {productnu: '456', text: 'test 2'},
+        {productnu: '789', text: 'test 3'}
     ];
 
     return (
-      <div className="WebShop">
-        <ProductList products={PRODUCTS}/>
-      </div>
+    <div>
+        <div className="WebShop">
+            <ProductList products={PRODUCTS}/>
+        </div>
+            <hr/>
+    todo : 
+    <pre>
+    WebShop
+    Basket
+        BasketLine
+    ProductList
+        Product
+    </pre>
+    </div>
     );
   }
 

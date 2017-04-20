@@ -20,7 +20,7 @@ class Product extends MyComp {
         <div className="image">  </div>
         <div className="info">  
           {this.props.productnu} - {this.props.text} 
-          <button onClick={this.onBuy}>Buy</button></div>
+          <button onClick={this.onBuy}>Buy [ {this.state.totalBuy} ]</button></div>
       </div>
     );
   }
